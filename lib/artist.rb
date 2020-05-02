@@ -12,7 +12,7 @@ def self.all
 end
 
 def add_song
-Song.artist = self 
+Song.artist = self
 end
 
 end
