@@ -16,4 +16,8 @@ the_song = Song.new(the_song)
 the_song.artist = self
 end
 
+def song
+  Song.all.select{|x| x.artist == self}
+end
+
 end
