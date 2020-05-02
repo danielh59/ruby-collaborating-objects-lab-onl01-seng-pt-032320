@@ -7,8 +7,8 @@ initialize(name)
 @name = name
 @@all << self
 
-def self.all 
+def self.all
 @@all
-end 
+end
 
 end
