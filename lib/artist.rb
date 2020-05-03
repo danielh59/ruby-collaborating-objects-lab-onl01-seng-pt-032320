@@ -21,7 +21,7 @@ def songs
 end
 
 def self.find_or_create_by_name(name)
-    self.detect(name) || self.create(name)
+    self.select(name) || self.create(name)
 end
 
   def print_songs
