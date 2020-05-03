@@ -12,8 +12,8 @@ def self.all
 @@all
 end
 
-def add_song
-Song.artist == self
+def add_song(song)
+song.artist == self
 end
 
 def song
