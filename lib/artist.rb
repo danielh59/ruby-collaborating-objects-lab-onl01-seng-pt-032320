@@ -3,8 +3,8 @@ attr_accessor :name
 
 @@all = []
 
-initialize(name)
-@name = name
+initialize
+@name 
 @@all << self
 
 def self.all
