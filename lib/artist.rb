@@ -28,6 +28,5 @@ end
     songs.each { |x| puts x.name }
   end
 
-end
 
 end
