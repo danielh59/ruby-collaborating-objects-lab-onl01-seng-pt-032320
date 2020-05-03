@@ -4,7 +4,7 @@ attr_accessor :name
 @@all = []
 
 initialize
-@name 
+@name
 @@all << self
 
 def self.all
